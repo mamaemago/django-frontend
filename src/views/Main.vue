@@ -28,7 +28,7 @@
           <button v-if="editMode" @click.prevent="saveModifiedStudent">
             Save
           </button>
-          <button class="resetButton" v-if="editMode" @click.prevent="cancel">
+          <button v-if="editMode" class="resetButton" @click.prevent="cancel">
             Cancel
           </button>
         </form>
