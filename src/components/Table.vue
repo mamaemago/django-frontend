@@ -44,6 +44,7 @@ export default {
   name: 'TableComponent',
   props: { dataset: Array },
   emits: ['tableEditClick', 'tableRemoveClick'],
+  
   setup(props, { emit }) {
     function tableEditClick(student) {
       emit('tableEditClick', student);
