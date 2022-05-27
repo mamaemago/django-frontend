@@ -2,7 +2,7 @@
   <div class="container">
     <div class="structure">
       <div>
-        <h1>Students Database</h1>
+        <h1>Estudante Classe</h1>
         <br />
       </div>
       <div>
